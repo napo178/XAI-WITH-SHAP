@@ -3,28 +3,15 @@
 # DATA:
 https://drive.google.com/file/d/1F_NVdj4YtbscMHYyUQF81u7DTSwMul9W/view?usp=sharing
 
-# 
-Problem:
+# Problem:
 Hepamine - A Liver Disease Microarray Database, Visualization Platform and Data-Mining Resource
 
-#Problem:
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7075926/
 
-#shap
+# shap:
 
 SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
 XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way
 
-
-#Install
-
-SHAP can be installed from either PyPI or conda-forge:
-
-
-
-#pip install shap
-or
-conda install -c conda-forge shap
 
 
 
@@ -36,7 +23,7 @@ While SHAP can explain the output of any machine learning model, we have develop
 import xgboost
 import shap
 
-# train an XGBoost model
+# Train XGBoost model
 X, y = shap.datasets.boston()
 model = xgboost.XGBRegressor().fit(X, y)
 
