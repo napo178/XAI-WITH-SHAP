@@ -14,11 +14,18 @@ XGBoost is an optimized distributed gradient boosting library designed to be hig
 
 
 Install
+
 SHAP can be installed from either PyPI or conda-forge:
+
+
 
 pip install shap
 or
 conda install -c conda-forge shap
+
+
+
+
 
 Tree ensemble example (XGBoost/LightGBM/CatBoost/scikit-learn/pyspark models)
 While SHAP can explain the output of any machine learning model, we have developed a high-speed exact algorithm for tree ensemble methods (see our Nature MI paper). Fast C++ implementations are supported for XGBoost, LightGBM, CatBoost, scikit-learn and pyspark tree models:
